@@ -1,7 +1,10 @@
+<?php
+	include('template.php');
+?>
 <div class="navbar">
 	<div class="navbar jax">
 		<ul class="nav navbar-nav">
-			<li><a class="logo" href ="#lolololgo">Лого</a></li>
+			<li><a class="logo" href ="index.php">Лого</a></li>
 			
 			<li><label id='chop'><input name="name" type="text" value="Search"></label></li>
 		</ul>

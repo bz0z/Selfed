@@ -1,3 +1,8 @@
+<?php 
+	include('header.php');
+?>
+
+<div class="add_post content">
  <h2 class="blog-post-title">Добавление новой статьи</h2>
         <br>
 <form action="demo_add_post.php"  method="post" >
@@ -15,3 +20,4 @@
 <input type=submit value="Добавить">
 
 </form>
+</div>
