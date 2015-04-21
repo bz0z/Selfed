@@ -18,10 +18,13 @@ body {
 }
 .content {
 	margin: 0px auto;
-	margin-top: 50px;
+	margin-top: 80px;
 	width: 1000px;
 	height: 500px;
 	background-color: #EEEEEE;
+}
+.pas {
+	font-size: 20px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -58,6 +61,7 @@ body {
 	float: right;
 	margin-right: 40px;
 }
+}
 #chop {
 	margin-top: 10px;
 	margin-left: 10px;
@@ -85,4 +89,14 @@ body {
 .add_post {
 	margin-top: 100px;
 	margin-left: 400px;
+}
+.header_p li ul {
+	display: none;
+}
+.header_p ul li:hover {	
+	display: block;
+}
+.logo {
+	font-weight: 900;
+	font-size: 28px;
 }
