@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("db_con.php");
 
 if($_GET['id']){
@@ -30,5 +31,5 @@ while($row = mysql_fetch_array($res)) {
 }
 echo $final_text;
 }
-
 ?>
+
