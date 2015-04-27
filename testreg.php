@@ -1,11 +1,12 @@
 <?php
 include('db_con.php');
-if (isset($_POST['login'])and isset($_POST['pswd'])){
+if (!empty($_POST['login'])and !empty($_POST['pswd'])){
 	$login = $_POST['login'];
 	$pswd = $_POST['pswd'];
 }
 else {
 	echo "Некоторые поля пусты!";
+	exit;
 }
 //trim() удаляет пробелы в начале и в конце, можно удалять не только пробелы
 $login = trim($login);
@@ -29,15 +30,15 @@ if ((strlen($login) < 16 and strlen($login) >= 6) and (strlen($pswd) < 16 and st
 			header("LOCATION: index.php");
 		}
 		else {
-			echo "Данного юзера не существует!";
+			echo "Данного юзера не существует!<br><a href='login.php'>Вернуться назад.</a>";
 		}
 	}
 	else {
-		echo "Введены некорректные символы!";
+		echo "Введены некорректные символы!<br><a href='login.php'>Вернуться назад.</a>";
 	}
 }
 else {
-	echo "Введено некорректное количество символов!";
+	echo "Введено некорректное количество символов!<br><a href='login.php'>Вернуться назад.</a>";
 }
 
 ?>

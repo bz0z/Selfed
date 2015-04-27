@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("db_con.php");
-
+include("functions.php");
 if($_GET['id']){
 $resw = "SELECT title, text FROM posts WHERE id = ".$_GET['id'];
 $res = mysql_query($resw);

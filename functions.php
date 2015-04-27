@@ -9,6 +9,9 @@ function datachek($data, $min_count, $max_count){
 	}
 	else return true;
 }
-
-	
+function validation($value){
+	$value = trim($value);
+	$value = htmlspecialchars($value);
+	return $value;
+}
 

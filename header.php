@@ -20,9 +20,6 @@
 		if(isset($_SESSION['user_id'])){
 			echo"<li><a class='glyphicon glyphicon-user' href='des.php'></a></li>";
 		}
-		else{
-			echo"<li><a class='glyphicon glyphicon-user' href='login.php'></a></li>";
-		}
 		?>
 	</ul>
 </div>
