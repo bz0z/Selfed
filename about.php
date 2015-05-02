@@ -12,7 +12,7 @@
 		<p style="text-align: right; font-size: 12px;"><i>Чтобы просматривать информацию, необходимо пройти регистрацию</i></p>
 		<br>
 		<br>
-		<a href="reg_form.php"><p id="regs">Зарегестрироваться</p></a>
+		<a href="reg_form.php"><p id="regs">Зарегистрироваться</p></a>
 		
 		<a href="login.php"><p id="regs">Войти</p></a>
 	</div>

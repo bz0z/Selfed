@@ -10,7 +10,7 @@
 			<form action="reg_testreg.php"  method="post" >
 				<table>
 					<tr>
-						<td>Логин:</td>
+						<td>Имя:</td>
 						<td>
 							<label>
 								<input name="name" type="text" value="">
